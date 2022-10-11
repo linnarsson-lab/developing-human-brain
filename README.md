@@ -6,6 +6,10 @@ Data and code related to our manuscript *Comprehensive cell atlas of the first-t
 (Coming soon)
 
 ## Downloads
+Metadata per sample: [table_S1.xlsx](https://github.com/linnarsson-lab/developing-human-brain/files/9755355/table_S1.xlsx)
+
+Metadata per cluster: [table_S2.xlsx](https://github.com/linnarsson-lab/developing-human-brain/files/9755350/table_S2.xlsx)
+
 Complete dataset: [HumanFetalBrainPool.h5](https://storage.googleapis.com/linnarsson-lab-human/HumanFetalBrainPool.h5)
 
 HDF5 file containing the tensors listed below. The most important tensors are Expression (the expression matrix; sum of spliced and unspliced UMIs), Gene (gene names), Accession (Ensembl accessions), Clusters (cluster labels), Embedding (tSNE), Factors (PCA components), ManifoldIndices (KNN graph edges)and ManifoldWeights (KNN graph edge weights).
