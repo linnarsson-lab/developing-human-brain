@@ -5,6 +5,11 @@ Data and code related to our manuscript *Comprehensive cell atlas of the first-t
 
 (Coming soon)
 
+## Code
+We used the [Shoji](https://github.com/linnarsson-lab/shoji) tensor database and the [cytograph-shoji](https://github.com/linnarsson-lab/cytograph-shoji) pipeline.
+
+Code for making many of the figures is available as [Jupyter notebooks](notebooks/README.md)
+
 ## Downloads
 Metadata per sample: [table_S1.xlsx](https://github.com/linnarsson-lab/developing-human-brain/files/9755355/table_S1.xlsx)
 
