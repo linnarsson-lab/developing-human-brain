@@ -1,5 +1,5 @@
 # Cell atlas of the developing human brain
-Data and code related to our manuscript *Comprehensive cell atlas of the first-trimester developing human brain*
+Data and code related to our manuscript *Comprehensive cell atlas of the first-trimester developing human brain* (Emelie Braun, Miri Danan-Gotthold et al. 2022, in review).
 
 ## Preprint (bioRxiv)
 
