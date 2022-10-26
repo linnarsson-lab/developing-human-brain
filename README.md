@@ -3,7 +3,7 @@ Data and code related to our manuscript *Comprehensive cell atlas of the first-t
 
 ## Preprint (bioRxiv)
 
-(Coming soon)
+[https://www.biorxiv.org/content/10.1101/2022.10.24.513487v1](https://www.biorxiv.org/content/10.1101/2022.10.24.513487v1)
 
 ## Code
 We used the [Shoji](https://github.com/linnarsson-lab/shoji) tensor database and the [cytograph-shoji](https://github.com/linnarsson-lab/cytograph-shoji) pipeline.
