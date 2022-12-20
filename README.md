@@ -38,7 +38,7 @@ Complete processed dataset: [HumanFetalBrainPool.h5](https://storage.googleapis.
 3 spatial [EEL FISH](https://www.nature.com/articles/s41587-022-01455-3) datasets of sagittaly cut full human embryo at 5 weeks post conception. Data is in the [.parquet](https://parquet.apache.org/) format and can be opened by [FISHscale](https://github.com/linnarsson-lab/FISHscale), Python [Pandas](https://pandas.pydata.org/docs/reference/api/pandas.read_parquet.html) or any other Parquet reader.  
 `r_px_microscope_stitched` and `c_px_microscope_stitched` contain the RNA molecule coordinates in pixels (pixel size of 0.18um).  
 `r_transformed` and	`c_transformed` contain the RNA molecule coordinates in pixels (pixel size of 0.27um).  
-`Valid` and `Brain` columns indicate if the detected molecules are in the tissue or in the brain respectively.
+`Tissue` and `Brain` columns indicate if the detected molecules are in the tissue or in the brain respectively.
 
 ### Description of tensors
 The datasets are provided as HDF5 files containing the tensors listed below. In Python, they can be accessed using [h5py](https://www.h5py.org) (other languages have similary libraries).
