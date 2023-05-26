@@ -26,6 +26,14 @@ Complete processed dataset: [HumanFetalBrainPool.h5](https://storage.googleapis.
 
 *See further below for a description of the content of the .h5 files*
 
+Alternative expression matrices generated with the "standard" cellranger + velocyto pipeline using cellranger GRCh38-3.0.0 annotations are available in [loom](https://loompy.org) and [anndata](https://anndata.readthedocs.io/en/latest/) formats:
+
+[human_dev_GRCh38-3.0.0.loom](https://storage.googleapis.com/linnarsson-lab-human/human_dev_GRCh38-3.0.0.loom)
+
+[human_dev-GRCh38-3.0.0.h5ad](https://storage.googleapis.com/linnarsson-lab-human/human_dev_GRCh38-3.0.0.h5ad) (Annotations basically follow [CELLxGENE](https://cellxgene.cziscience.com/) standards.)
+
+These files contain exactly the same cells as the HumanFetalBrainPool.h5 file. Some ~8000 cells that were filtered out by this procedure have zero total UMI count.
+
 ### Working datasets
 
 (coming soon)
