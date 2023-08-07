@@ -32,6 +32,8 @@ Alternative expression matrices generated with the "standard" cellranger + veloc
 
 [human_dev-GRCh38-3.0.0.h5ad](https://storage.googleapis.com/linnarsson-lab-human/human_dev_GRCh38-3.0.0.h5ad) (Annotations basically follow [CELLxGENE](https://cellxgene.cziscience.com/) standards.)
 
+[human_dev-GRCh38-3.0.0_all_layers.h5ad](https://storage.googleapis.com/linnarsson-lab-human/human_dev_GRCh38-3.0.0_all_layers.h5ad) (The same but including 'ambiguous', 'spliced', and 'unspliced' layers.)
+
 These files contain exactly the same cells as the HumanFetalBrainPool.h5 file. Some ~8000 cells that were filtered out by this procedure have zero total UMI count.
 
 ### Working datasets
