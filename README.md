@@ -67,5 +67,5 @@ We discarded genes or transcripts that overlapped or mapped to other genes or no
 
 The GTF file used for read counts: [gb_pri_annot_filtered.gtf.gz](https://storage.googleapis.com/linnarsson-lab-human/gb_pri_annot_filtered.gtf.gz)
 
-The genes and transcripts that were discarded: [filtered_transcripts.txt](https://storage.googleapis.com/linnarsson-lab-tmp/filtered_transcripts.txt)
+The genes and transcripts that were discarded: [gb_pri_filtered_transcripts.txt.gz](https://storage.googleapis.com/linnarsson-lab-human/gb_pri_filtered_transcripts.txt.gz)
 
