@@ -24,6 +24,8 @@ Raw data: [EGAS00001004107](https://ega-archive.org/studies/EGAS00001004107)
 
 Complete processed dataset: [HumanFetalBrainPool.h5](https://storage.googleapis.com/linnarsson-lab-human/HumanFetalBrainPool.h5)
 
+Also available in h5ad format with CELLxGENE annotations: [human_dev.h5ad](https://storage.googleapis.com/linnarsson-lab-human/human_dev.h5ad)
+
 *See further below for a description of the content of the .h5 files*
 
 Alternative expression matrices generated with the "standard" cellranger + velocyto pipeline using cellranger GRCh38-3.0.0 annotations are available in [loom](https://loompy.org) and [anndata](https://anndata.readthedocs.io/en/latest/) formats:
