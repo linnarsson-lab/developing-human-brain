@@ -1,17 +1,19 @@
 # Cell atlas of the developing human brain
-Data and code related to our manuscript *Comprehensive cell atlas of the first-trimester developing human brain* (Emelie Braun, Miri Danan-Gotthold et al. 2022, in review).
+Data and code related to *Comprehensive cell atlas of the first-trimester developing human brain* (Emelie Braun, Miri Danan-Gotthold et al. 2022).
 
 ![Fig1D](https://user-images.githubusercontent.com/10656387/197965313-1aab2a5f-d51a-4de1-8d32-338e5bd54bd1.png)
 
 
-## Preprint (bioRxiv)
+## Paper
 
-[https://www.biorxiv.org/content/10.1101/2022.10.24.513487v1](https://www.biorxiv.org/content/10.1101/2022.10.24.513487v1)
+Preprint: [https://www.biorxiv.org/content/10.1101/2022.10.24.513487v1](https://www.biorxiv.org/content/10.1101/2022.10.24.513487v1)
+
+Publication: [https://www.science.org/doi/10.1126/science.adf1226](https://www.science.org/doi/10.1126/science.adf1226)
 
 ## Code
 We used the [Shoji](https://github.com/linnarsson-lab/shoji) tensor database and the [cytograph-shoji](https://github.com/linnarsson-lab/cytograph-shoji) pipeline.
 
-Code for making many of the figures is available as [Jupyter notebooks](notebooks/README.md)
+Code for making many of the figures is available as [Jupyter notebooks](notebooks/)
 
 ## Data
 
@@ -38,10 +40,6 @@ Alternative expression matrices generated with the "standard" cellranger + veloc
 
 These files contain exactly the same cells as the HumanFetalBrainPool.h5 file. Some ~8000 cells that were filtered out by this procedure have zero total UMI count.
 
-### Working datasets
-
-(coming soon)
-
 ### Spatial EEL FISH datasets
 ![HE_5week_7](https://user-images.githubusercontent.com/9692862/198264133-abe1b830-a0d1-4eb0-a9fb-7038b36c728f.png)
 [Section 1 Z=970um](https://storage.googleapis.com/linnarsson-lab-human/EEL_HE_5week/LBEXP20211113_EEL_HE_5w_970um_RNA_transformed_assigned.parquet)  
@@ -51,6 +49,9 @@ These files contain exactly the same cells as the HumanFetalBrainPool.h5 file. S
 `r_px_microscope_stitched` and `c_px_microscope_stitched` contain the RNA molecule coordinates in pixels (pixel size of 0.18um).  
 `r_transformed` and	`c_transformed` contain the RNA molecule coordinates in pixels (pixel size of 0.27um).  
 `Tissue` and `Brain` columns indicate if the detected molecules are in the tissue or in the brain respectively.
+
+### Visium data
+[5 week embryo](https://storage.googleapis.com/linnarsson-lab-human/human_dev_visium_5w/spaceranger_output.tar.gz)
 
 ### Description of tensors
 The datasets are provided as HDF5 files containing the tensors listed below. In Python, they can be accessed using [h5py](https://www.h5py.org) (other languages have similary libraries).
