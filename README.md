@@ -18,9 +18,9 @@ Code for making many of the figures is available as [Jupyter notebooks](notebook
 ## Data
 
 ### Complete dataset
-Metadata per sample: [table_S1.xlsx](https://github.com/linnarsson-lab/developing-human-brain/files/9755355/table_S1.xlsx)
+Metadata per sample: [human_dev_science.adf1226_table_s1.xlsx](https://www.dropbox.com/scl/fi/1bkbmewgha67oo4g0n626/human_dev_science.adf1226_table_s1.xlsx?rlkey=zae4qt5hvp7r5rhzhowupt3c4&st=s2rv4l81&dl=1)
 
-Metadata per cluster: [table_S2.xlsx](https://github.com/linnarsson-lab/developing-human-brain/files/9755350/table_S2.xlsx)
+Metadata per cluster: [human_dev_science.adf1226_table_s2.xlsx](https://www.dropbox.com/scl/fi/b8zk8124u0hemnolp33w3/human_dev_science.adf1226_table_s2.xlsx?rlkey=li7dop8b8fvmpq0lqnbnvnwri&st=3igkx2wq&dl=1)
 
 Raw data: [EGAS00001004107](https://ega-archive.org/studies/EGAS00001004107)
 
