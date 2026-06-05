@@ -24,7 +24,7 @@ Metadata per cluster: [human_dev_science.adf1226_table_s2.xlsx](https://www.drop
 
 Raw data: [EGAS00001004107](https://ega-archive.org/studies/EGAS00001004107)
 
-Complete processed dataset: [HumanFetalBrainPool.h5](https://storage.googleapis.com/linnarsson-lab-human/HumanFetalBrainPool.h5)
+Complete processed dataset: [HumanFetalBrainPool.h5](https://www.dropbox.com/scl/fi/oajexq5wvjmtzulv7ovo2/HumanFetalBrainPool.h5?rlkey=imsgdxo8kzcas6nmkw1w499a0&st=zoy1aamz&dl=1)
 
 Also available in h5ad format with [CELLxGENE](https://cellxgene.cziscience.com/) annotations: [human_dev.h5ad](https://storage.googleapis.com/linnarsson-lab-human/human_dev.h5ad)
 
@@ -32,7 +32,7 @@ Also available in h5ad format with [CELLxGENE](https://cellxgene.cziscience.com/
 
 Alternative expression matrices generated with the "standard" cellranger + velocyto pipeline using cellranger GRCh38-3.0.0 annotations are available in [loom](https://loompy.org) and [anndata](https://anndata.readthedocs.io/en/latest/) formats:
 
-[human_dev_GRCh38-3.0.0.loom](https://storage.googleapis.com/linnarsson-lab-human/human_dev_GRCh38-3.0.0.loom)
+[human_dev_GRCh38-3.0.0.loom](https://www.dropbox.com/scl/fi/hxfmej2nkrnb83buvfhfm/human_dev_GRCh38-3.0.0.loom?rlkey=q091jt2fvmygqj3j3ppq0m7r9&st=q1z12fl1&dl=0)
 
 [human_dev-GRCh38-3.0.0.h5ad](https://storage.googleapis.com/linnarsson-lab-human/human_dev_GRCh38-3.0.0.h5ad) (Annotations basically follow [CELLxGENE](https://cellxgene.cziscience.com/) standards.)
 
