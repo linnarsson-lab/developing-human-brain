@@ -42,16 +42,16 @@ These files contain exactly the same cells as the HumanFetalBrainPool.h5 file. S
 
 ### Spatial EEL FISH datasets
 ![HE_5week_7](https://user-images.githubusercontent.com/9692862/198264133-abe1b830-a0d1-4eb0-a9fb-7038b36c728f.png)
-[Section 1 Z=970um](https://storage.googleapis.com/linnarsson-lab-human/EEL_HE_5week/LBEXP20211113_EEL_HE_5w_970um_RNA_transformed_assigned.parquet)  
-[Section 2 Z=810um](https://storage.googleapis.com/linnarsson-lab-human/EEL_HE_5week/LBEXP20211119_EEL_HE_5w_810um_RNA_transformed_assigned.parquet)  
-[Section 3 Z=640um](https://storage.googleapis.com/linnarsson-lab-human/EEL_HE_5week/LBEXP20211117_EEL_HE_5w_640um_RNA_transformed_assigned.parquet)  
+[Section 1 Z=970um](https://www.dropbox.com/scl/fi/66kucqzt1x4mwp65q1l85/LBEXP20211113_EEL_HE_5w_970um_RNA_transformed_assigned.parquet?rlkey=ltlss5qz1ef188dvahnn8qvf0&st=w001as4b&dl=1)  
+[Section 2 Z=810um](https://www.dropbox.com/scl/fi/obtfabltd9b4fd1r27tbi/LBEXP20211119_EEL_HE_5w_810um_RNA_transformed_assigned.parquet?rlkey=ot9y67j85wpw0988eueh35uy0&st=okre6oy8&dl=1)  
+[Section 3 Z=640um](https://www.dropbox.com/scl/fi/4igq3gd8g6qj5nqo2rvdh/LBEXP20211117_EEL_HE_5w_640um_RNA_transformed_assigned.parquet?rlkey=y0vrnb9c05w9wjjpcq52ophjo&st=w19e431x&dl=1)  
 3 spatial [EEL FISH](https://www.nature.com/articles/s41587-022-01455-3) datasets of sagittaly cut full human embryo at 5 weeks post conception. Data is in the [.parquet](https://parquet.apache.org/) format and can be opened by [FISHscale](https://github.com/linnarsson-lab/FISHscale), Python [Pandas](https://pandas.pydata.org/docs/reference/api/pandas.read_parquet.html) or any other Parquet reader.  
 `r_px_microscope_stitched` and `c_px_microscope_stitched` contain the RNA molecule coordinates in pixels (pixel size of 0.18um).  
 `r_transformed` and	`c_transformed` contain the RNA molecule coordinates in pixels (pixel size of 0.27um).  
 `Tissue` and `Brain` columns indicate if the detected molecules are in the tissue or in the brain respectively.
 
 ### Visium data
-[5 week embryo](https://storage.googleapis.com/linnarsson-lab-human/human_dev_visium_5w/spaceranger_output.tar.gz)
+[5 week embryo](https://www.dropbox.com/scl/fi/e0o8ip8z37dm977tgei3w/human_dev_spaceranger_output.tar.gz?rlkey=oqehn6geuc6xn3ccpv3omp3hw&st=6b932ask&dl=1)
 
 ### Description of tensors
 The datasets are provided as HDF5 files containing the tensors listed below. In Python, they can be accessed using [h5py](https://www.h5py.org) (other languages have similary libraries).
@@ -66,7 +66,8 @@ Our gene and transcripts annotation is based on Based on GRCh38.p13 gencode V35 
 
 We discarded genes or transcripts that overlapped or mapped to other genes or non-coding RNAs 3’ UTR.
 
-The GTF file used for read counts: [gb_pri_annot_filtered.gtf.gz](https://storage.googleapis.com/linnarsson-lab-human/gb_pri_annot_filtered.gtf.gz)
+The GTF file used for read counts: [hg38-final3_genes.gtf.gz](https://www.dropbox.com/scl/fi/2xbby59472v8wuvwezve3/hg38-final3_genes.gtf.gz?rlkey=eh4lf4thbrwt2armtse0uyvj7&st=v8kco2yz&dl=1)
 
-The genes and transcripts that were discarded: [gb_pri_filtered_transcripts.txt.gz](https://storage.googleapis.com/linnarsson-lab-human/gb_pri_filtered_transcripts.txt.gz)
+The genes and transcripts that were discarded: [hg38-final3_filtered_transcripts.txt.gz](https://www.dropbox.com/scl/fi/hppwn6wcsy1thrju5nb3w/hg38-final3_filtered_transcripts.txt.gz?rlkey=s92unmz21o081akai8b5edrgs&st=mmjgm7f3&dl=1).
 
+Description of columns in above text file: [hg38-final3_filtered_transcripts.README](https://www.dropbox.com/scl/fi/ilxgt9mddu64jl0fkjmm1/hg38-final3_filtered_transcripts.README?rlkey=6lssdft9kqhue9ntm7hd8v2m1&st=chkn15zk&dl=0)
