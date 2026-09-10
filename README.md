@@ -32,11 +32,9 @@ Also available in h5ad format with [CELLxGENE](https://cellxgene.cziscience.com/
 
 Alternative expression matrices generated with the "standard" cellranger + velocyto pipeline using cellranger GRCh38-3.0.0 annotations are available in [loom](https://loompy.org) and [anndata](https://anndata.readthedocs.io/en/latest/) formats:
 
-[human_dev_GRCh38-3.0.0.loom](https://www.dropbox.com/scl/fi/hxfmej2nkrnb83buvfhfm/human_dev_GRCh38-3.0.0.loom?rlkey=q091jt2fvmygqj3j3ppq0m7r9&st=q1z12fl1&dl=0)
+[human_dev_GRCh38-3.0.0.loom](https://www.dropbox.com/scl/fi/hxfmej2nkrnb83buvfhfm/human_dev_GRCh38-3.0.0.loom?rlkey=q091jt2fvmygqj3j3ppq0m7r9&st=q1z12fl1&dl=1)
 
-[human_dev-GRCh38-3.0.0.h5ad](https://storage.googleapis.com/linnarsson-lab-human/human_dev_GRCh38-3.0.0.h5ad) (Annotations basically follow [CELLxGENE](https://cellxgene.cziscience.com/) standards.)
-
-[human_dev-GRCh38-3.0.0_all_layers.h5ad](https://storage.googleapis.com/linnarsson-lab-human/human_dev_GRCh38-3.0.0_all_layers.h5ad) (The same but including 'ambiguous', 'spliced', and 'unspliced' layers.)
+[human_dev-GRCh38-3.0.0_all_layers.h5ad](https://www.dropbox.com/scl/fi/8uflnlzo3iuq2buhw7z6r/human_dev_GRCh38-3.0.0_all_layers.h5ad?rlkey=ln1bzex7zv7yruej8kmwparrf&st=e24lsy89&dl=1) (The same but including 'ambiguous', 'spliced', and 'unspliced' layers.)
 
 These files contain exactly the same cells as the HumanFetalBrainPool.h5 file. Some ~8000 cells that were filtered out by this procedure have zero total UMI count.
 
