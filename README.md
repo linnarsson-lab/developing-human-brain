@@ -26,7 +26,7 @@ Raw data: [EGAS00001004107](https://ega-archive.org/studies/EGAS00001004107)
 
 Complete processed dataset: [HumanFetalBrainPool.h5](https://www.dropbox.com/scl/fi/oajexq5wvjmtzulv7ovo2/HumanFetalBrainPool.h5?rlkey=imsgdxo8kzcas6nmkw1w499a0&st=zoy1aamz&dl=1)
 
-Also available in h5ad format with [CELLxGENE](https://cellxgene.cziscience.com/) annotations: [human_dev.h5ad](https://storage.googleapis.com/linnarsson-lab-human/human_dev.h5ad)
+Also available in h5ad format with [CELLxGENE](https://cellxgene.cziscience.com/) annotations: [human_dev.h5ad](https://www.dropbox.com/scl/fi/itw9nyjd16xgi0egmhjh7/human_dev.h5ad?rlkey=hp5z48c3k68445tvpvp3m9xlq&st=oznsd328&dl=0)
 
 *See further below for a description of the content of the .h5 files*
 
